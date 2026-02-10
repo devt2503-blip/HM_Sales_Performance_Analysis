@@ -10,6 +10,8 @@ A comprehensive Power BI study of H&M's retail operations, analyzing a massive *
 * **Product Category Balance:** Identified a near-equal revenue split between Kids (32.78%), Women (33.51%), and Men (33.71%), proving a diversified market appeal.
 * **Price vs. Volume Analysis:** Developed a scatter plot to identify the 'Sweet Spot' for pricing, showing high sales volume clusters between 1500–2000 average price points.
 * **Store Ownership Efficiency:** Compared 'Owned' vs. 'Rented' store types, finding consistent performance across both models with an average sales/sq.ft of 7.1.
+<img width="1293" height="593" alt="Screenshot 2026-02-10 045518" src="https://github.com/user-attachments/assets/858f5a7f-d5d9-4cce-8b56-f95162bbbf13" />
+<img width="1171" height="721" alt="Screenshot 2026-02-10 045453" src="https://github.com/user-attachments/assets/0a63ff35-93b1-4406-a840-63e944606d2b" />
 
 ## Strategic DAX Formulas Used
 ```dax
@@ -20,6 +22,4 @@ RETURN
 DIVIDE(CurrentMonthSales - PreviousMonthSales, PreviousMonthSales)
 
 Average Order Value = DIVIDE([Total Sales], [Number of Orders])
-![1000072252](https://github.com/user-attachments/assets/e813721e-7928-4479-a7d1-63a58e80681b)
-![1000072251](https://github.com/user-attachments/assets/b2eb57a0-24f2-4a8c-8fe9-4012114aa9e4)
 
